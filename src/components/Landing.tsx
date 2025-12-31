@@ -1,4 +1,4 @@
-import bg from "../assets/bg.jpeg";
+import bg from "../assets/bg.jpg";
 
 const Landing = () => {
   return (
