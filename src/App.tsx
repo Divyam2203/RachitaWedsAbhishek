@@ -1,11 +1,16 @@
-import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
+import Invitation from "./components/Invitation";
+import Location from "./components/Location";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
       <div className=" font-serif">
-        <Navbar />
         <Landing />
+        <Invitation />
+        <Location />
+        <Footer />
       </div>
     </>
   );
