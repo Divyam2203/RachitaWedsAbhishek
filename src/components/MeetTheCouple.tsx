@@ -1,5 +1,5 @@
-import groom from "../assets/groom.jpg";
-import bride from "../assets/bride.jpg";
+import groom from "../assets/groom.webp";
+import bride from "../assets/bride.webp";
 
 const MeetTheCouple = () => {
   return (
