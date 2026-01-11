@@ -4,26 +4,26 @@ const Schedule = () => {
   // 1. Easy-to-edit Data Array
   // You can add more events here (like Reception or Mehendi) easily.
   const events = [
-    {
-      id: 1,
-      title: "Haldi Ceremony",
-      date: "April 19, 2026",
-      time: "10:00 AM - 1:00 PM",
-      location: "Poolside, The Grand Palace",
-      description: "A fun morning of turmeric and blessings. Get ready to get messy!",
-      dressCode: "Yellows & Brights",
-      icon: "☀️" // You can replace this with an SVG if you prefer
-    },
-    {
-      id: 2,
-      title: "Sangeet Night",
-      date: "April 20, 2026",
-      time: "7:00 PM onwards",
-      location: "Crystal Ballroom",
-      description: "Put on your dancing shoes for a night of music, performances, and cocktails.",
-      dressCode: "Indo-Western / Glamour",
-      icon: "💃"
-    },
+    // {
+    //   id: 1,
+    //   title: "Haldi Ceremony",
+    //   date: "April 19, 2026",
+    //   time: "10:00 AM - 1:00 PM",
+    //   location: "Poolside, The Grand Palace",
+    //   description: "A fun morning of turmeric and blessings. Get ready to get messy!",
+    //   dressCode: "Yellows & Brights",
+    //   icon: "☀️" // You can replace this with an SVG if you prefer
+    // },
+    // {
+    //   id: 2,
+    //   title: "Sangeet Night",
+    //   date: "April 20, 2026",
+    //   time: "7:00 PM onwards",
+    //   location: "Crystal Ballroom",
+    //   description: "Put on your dancing shoes for a night of music, performances, and cocktails.",
+    //   dressCode: "Indo-Western / Glamour",
+    //   icon: "💃"
+    // },
     {
       id: 3,
       title: "The Wedding (Pheras)",
@@ -107,6 +107,13 @@ const Schedule = () => {
             </div>
           ))}
           
+          <div className="text-center mb-16">
+          <span className="text-gray-500 uppercase tracking-[0.2em] text-sm font-bold mb-2 block">
+            More Dates To Be Announced Soon
+          </span>
+          
+        </div>
+
         </div>
       </div>
     </section>
