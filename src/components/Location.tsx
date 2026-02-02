@@ -18,7 +18,7 @@ const Location = () => {
         <div className="grid md:grid-cols-2 gap-8 items-stretch">
           
           {/* LEFT: Venue Photo */}
-          <div className="relative h-80 md:h-full min-h-[350px] rounded-xl overflow-hidden shadow-lg">
+          <div className="relative h-80 md:h-full min-h-87.5 rounded-xl overflow-hidden shadow-lg">
             <img 
               src={kanerbaag}
               alt="The Wedding Venue"
