@@ -1,4 +1,4 @@
-import bg from "../assets/bg.webp";
+import bg from "../assets/bg.jpg";
 
 const Landing = () => {
   return (
@@ -10,7 +10,7 @@ const Landing = () => {
       <img 
         src={bg} 
         alt="Couple embracing"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-cover object-[70%_41%]"
       />
 
       {/* LAYER 2: The Dark Overlay */}
@@ -19,7 +19,7 @@ const Landing = () => {
 
       {/* LAYER 3: The Content */}
       {/* Z-10 puts this above the image/overlay. Flexbox centers it perfectly. */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 text-white">
+      <div className="relative z-10  flex flex-col items-center justify-center h-full text-center pt-30 px-4 text-white">
         
         {/* Top Tagline */}
         <p className="uppercase tracking-[0.2em] text-sm md:text-base font-medium mb-4 animate-fade-in-up">

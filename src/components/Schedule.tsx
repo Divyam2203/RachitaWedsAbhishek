@@ -25,10 +25,10 @@ const Schedule = () => {
     //   icon: "💃"
     // },
     {
-      id: 3,
+      id: 1,
       title: "The Wedding (Pheras)",
       date: "April 21, 2026",
-      time: "4:00 PM (Baraat Assembly)",
+      time: "7:00 PM ",
       location: "The Royal Lawns",
       description: "The traditional ceremony uniting our souls. Dinner to follow.",
       dressCode: "Traditional Indian / Formal",
@@ -73,9 +73,9 @@ const Schedule = () => {
               <div className="flex-1 bg-white p-6 md:p-8 rounded-xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow duration-300">
                 
                 {/* Mobile Date (Visible only on small screens) */}
-                <div className="md:hidden text-xs font-bold text-red-700 uppercase tracking-wider mb-2">
+                {/* <div className="md:hidden text-xs font-bold text-red-700 uppercase tracking-wider mb-2">
                   {item.date} • {item.time}
-                </div>
+                </div> */}
 
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="font-serif text-2xl text-gray-900">{item.title}</h3>
@@ -109,7 +109,7 @@ const Schedule = () => {
           
           <div className="text-center mb-16">
           <span className="text-gray-500 uppercase tracking-[0.2em] text-sm font-bold mb-2 block">
-            More Dates To Be Announced Soon
+            {/* More Dates To Be Announced Soon */}
           </span>
           
         </div>
