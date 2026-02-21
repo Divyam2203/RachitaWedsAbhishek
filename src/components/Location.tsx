@@ -6,11 +6,11 @@ const Location = () => {
       <div className="max-w-6xl mx-auto px-6">
         
         {/* Section Heading */}
-        <div className="text-center mb-16">
-          <span className="text-red-800 uppercase tracking-[0.2em] text-sm font-bold mb-2 block">
+        <div className="font-light text-center mb-16">
+          <span className="text-red-800 uppercase tracking-[0.2em] text-sm mb-2 block">
             The Destination
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl text-gray-800">
+          <h2 className=" text-4xl md:text-5xl text-gray-800">
             Location & Venue
           </h2>
         </div>
@@ -46,7 +46,7 @@ const Location = () => {
 
             {/* Address Details Box */}
             <div className="bg-stone-50 p-8 rounded-xl border border-stone-200 flex flex-col items-center md:items-start text-center md:text-left">
-              <h3 className="font-serif text-2xl text-gray-900 mb-2">Kanerbaag</h3>
+              <h3 className=" text-2xl text-gray-900 mb-2">Kanerbaag</h3>
               <p className="text-gray-600 mb-6 font-light">
                 Street no 8, Baliawas<br />
                 Gurugram, Bandhwari, Haryana

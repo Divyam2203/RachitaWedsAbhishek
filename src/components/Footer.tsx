@@ -40,7 +40,7 @@ const Footer = () => {
             />
           </svg>
 
-          <p className="font-serif italic text-amber-500/80 text-sm md:text-base mb-1">
+          <p className=" italic text-amber-500/80 text-sm md:text-base mb-1">
             "Vakratunda Mahakaya Surya Koti Samaprabha"
           </p>
           <p className="text-stone-500 text-xs uppercase tracking-widest">
@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="w-full max-w-xs h-px bg-stone-700 mx-auto mb-10"></div>
 
         {/* 3. Couple & Hashtag */}
-        <h2 className="font-serif text-3xl md:text-4xl text-white mb-2">
+        <h2 className=" text-3xl md:text-4xl text-white mb-2">
           Rachita & Abhishek
         </h2>
 

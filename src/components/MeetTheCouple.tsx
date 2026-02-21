@@ -6,7 +6,7 @@ const MeetTheCouple = () => {
     <section className="bg-white w-full py-20 md:py-32 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section Heading */}
-        <h2 className="text-center font-serif text-4xl md:text-5xl text-gray-800 mb-16 md:mb-24">
+        <h2 className="text-center  text-4xl md:text-5xl text-gray-800 mb-16 md:mb-24">
           Meet the Happy Couple
         </h2>
 
@@ -28,7 +28,7 @@ const MeetTheCouple = () => {
             <span className="block text-red-800 uppercase tracking-[0.2em] text-sm font-bold mb-4">
               The Groom
             </span>
-            <h3 className="font-serif text-4xl md:text-5xl text-gray-900 mb-6">
+            <h3 className=" text-4xl md:text-5xl text-gray-900 mb-6">
               Abhishek
             </h3>
             <div className="w-16 h-px bg-red-800/40 mx-auto md:mx-0 mb-6"></div>
@@ -50,7 +50,7 @@ const MeetTheCouple = () => {
             <span className="block text-red-800 uppercase tracking-[0.2em] text-sm font-bold mb-4">
               The Bride
             </span>
-            <h3 className="font-serif text-4xl md:text-5xl text-gray-900 mb-6">
+            <h3 className=" text-4xl md:text-5xl text-gray-900 mb-6">
               Rachita Kriti
             </h3>
             <div className="w-16 h-px bg-red-800/40 mx-auto md:mx-0 mb-6"></div>
