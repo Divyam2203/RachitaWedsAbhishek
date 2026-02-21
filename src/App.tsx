@@ -10,7 +10,7 @@ import Rsvp from "./components/Rsvp";
 function App() {
   return (
     <>
-      <div className="font-jost">
+      <div className="font-sans">
         <Landing />
         <Invitation />
         <Schedule />
