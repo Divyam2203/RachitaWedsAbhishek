@@ -17,7 +17,7 @@ const Invitation = () => {
         {/* 2. The Body Text */}
         <p className="font-light text-gray-600 text-lg md:text-xl leading-relaxed mb-12 tracking-wide px-2">
           From two states to one family, from separate stories to a shared
-          forever, we’re bringing our worlds together, and we’d love for you to
+          forever, we`re bringing our worlds together, and we`d love for you to
           be there when we do.
           <div></div>
           Come celebrate with us 🤍
